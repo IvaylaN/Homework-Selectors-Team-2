@@ -1,0 +1,22 @@
+tab:Profile>>login/lstefanova
+posts/followers/following
+Xpath
+$x('//div [@class="col-12 col-md-8 col-lg-7 profile-stats"]/ul/li') 
+CSS
+$$('.col-12.col-md-8.col-lg-7 ul li')
+lstefanova/name of user
+Xpath
+$x('// div [@class="col-12 col-lg-6 profile-user-settings"]/h2')
+CSS
+$$('.col-12.col-lg-6 h2')
+image
+Xpath
+$x('// div[@class="image-container"]/img')
+CSS
+$$('.image-container img')
+icon 
+CSS
+$$('.col-12.col-lg-6 i')
+Xpath
+$x('//div [@class="col-12 col-lg-6 profile-user-settings"]/i[@class="fas 
+fa-user-edit ng-star-inserted"]')
